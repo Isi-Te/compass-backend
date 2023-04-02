@@ -15,6 +15,9 @@ app.use(cors({ origin: CORS_ORIGIN }));
 const infoboxRoute = require('./routes/infobox');
 app.use('/journal', infoboxRoute);
 
+const graphRoute = require('./routes/graphdata');
+app.use('/', graphRoute);
+
 app.listen(PORT, () => {
     console.log("🚀 Listening on port 8080")
 })
