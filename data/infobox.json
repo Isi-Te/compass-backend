@@ -1,0 +1,74 @@
+[
+    {
+        "category": "mental_health",
+        "title": "happy",
+        "question": "How happy and satisfied were you with your day today?",
+        "explanation": "Rate your overall happiness and satisfaction today from 0 (not at all happy/satisfied) to 10 (extremely happy/satisfied). Consider any events or interactions that may have affected your mood when answering this question."
+    },
+    {
+        "category": "mental_health",
+        "title": "sad",
+        "question": "How would you rate your level of sensitivity and sadness today?",
+        "explanation": "Rate your level of sensitivity and sadness today from 0 (not at all sensitive/sad) to 10 (very sensitive/sad). Consider any events or interactions that may have affected your mood."
+    },
+    {
+        "category": "mental_health",
+        "title": "laughs",
+        "question": "How often did you laugh today?",
+        "explanation": "Rate how frequently you laughed today from 0 (not at all) to 10 (very often). Consider any activities or experiences that made you laugh."
+    },
+    {
+        "category": "mental_health",
+        "title": "frustrated",
+        "question": "How would you rate your level of frustration and agitation today?",
+        "explanation": "Rate your level of frustration and agitation today from 0 (not at all) to 10 (very much). Consider any events or interactions that may have affected your mood."
+    },
+    {
+        "category": "physical_health",
+        "title": "stress",
+        "question": "How stressed do you feel today?",
+        "explanation": "Rate your level of stress today from 0 (not at all) to 10 (extremely). Consider any events or situations that may have contributed to your stress."
+    },
+    {
+        "category": "physical_health",
+        "title": "sleep",
+        "question": "How would you rate the amount and the quality of your sleep?",
+        "explanation": "Rate your level of sleep today from 0 (very poor) to 10 (very good). This includes any naps taken during the day."
+    },
+    {
+        "category": "physical_health",
+        "title": "nutrition",
+        "question": "How satisfied are you with your nutrition today?",
+        "explanation": "Rate your satisfaction with the quality and quantity of the food you ate today from 0 (not at all satisfied) to 10 (extremely satisfied)."
+    },
+    {
+        "category": "physical_health",
+        "title": "energy",
+        "question": "How are your energy levels today?",
+        "explanation": "Rate your energy levels today from 0 (very low) to 10 (very high). This includes any physical or mental fatigue, as well as any factors that may have contributed to your energy levels."
+    },
+    {
+        "category": "activity",
+        "title": "outdoors",
+        "question": "How satisfied are you with the amount of time you spend outdoors?",
+        "explanation": "Rate your satisfaction ranging from 0 (not at all satisfied) to 10 (extremely satisfied)."
+    },
+    {
+        "category": "activity",
+        "title": "fitness",
+        "question": "How satisfied are you with the quality and amount of physical activity today?",
+        "explanation": "Please rate your satisfaction ranging from 0 (not at all satisfied) to 10 (extremely satisfied)."
+    },
+    {
+        "category": "activity",
+        "title": "social",
+        "question": "Were you able to enjoy quality time with people in your life?",
+        "explanation": "Please indicate if you were able to enjoy quality time with friends, family, or loved ones today by rating your satisfaction ranging from 0 (not at all satisfied) to 10 (extremely satisfied). Also consider any meaningful interactions or activities that you had with others that left you feeling fulfilled and happy."
+    },
+    {
+        "category": "activity",
+        "title": "self-care",
+        "question": "Were you able to integrate a self-care routine?",
+        "explanation": "Consider if you were able to intentionally set aside time for yourself today to engage in self-care practices that promote your physical, mental, or emotional wellbeing by rating your satisfaction ranging from 0 (not at all satisfied) to 10 (extremely satisfied)."
+    }
+]

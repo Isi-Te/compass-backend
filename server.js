@@ -12,6 +12,9 @@ app.use(express.static('public'))
 
 app.use(cors({ origin: CORS_ORIGIN }));
 
+const infoboxRoute = require('./routes/infobox');
+app.use('/journal', infoboxRoute);
+
 app.listen(PORT, () => {
     console.log("🚀 Listening on port 8080")
 })
