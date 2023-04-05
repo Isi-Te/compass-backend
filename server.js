@@ -18,6 +18,9 @@ app.use('/journal', infoboxRoute);
 const graphRoute = require('./routes/graphdata');
 app.use('/', graphRoute);
 
+const userRoute = require('./routes/user');
+app.use('/user', userRoute);
+
 app.listen(PORT, () => {
     console.log("🚀 Listening on port 8080")
 })
