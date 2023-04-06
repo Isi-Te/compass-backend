@@ -46,17 +46,35 @@ exports.userLogin = (req, res) => {
         });
 };
 
-// else {
-//     knex('user')
-//         .where({ username: username, password: password })
-//         .then(() => {
-//             let token = jwt.sign({ username: username })
-//             res.status(201) / json({ token: token });
-//         })
-//         .catch((err) =>
-//             res.status(403).send({ token: null })
-//         );
-// }
+exports.addUser = (req, res) => {
+    const { name, username, password } = req.body;
+
+    const addUser = { id: uuid(), ...req.body }
+
+    knex('user')
+        .where({ username })
+        .first()
+        .then((user) => {
+            if (name || password || username === "") {
+                res.status(404).json({
+                    error: 'Information incomplete.'
+                });
+                return;
+            }
+            if (username === user.username) {
+                res.status(409).json({
+                    error: 'Username already exists.'
+                });
+                return;
+            }
+            knex('user')
+                .insert(addUser)
+                .then(() => {
+                    res.status(201).json(addUser);
+                })
+                .catch((error) => res.status(400).send(`Error signing up new user: ${error}`));
+        })
+}
 
 // knex('user')
 //     .insert(userLogin)
