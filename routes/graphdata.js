@@ -6,9 +6,4 @@ router
     .get(graphController.getJournal)
     .post(graphController.newEntry);
 
-router
-    .route('/icons')
-    .get(graphController.getIcons)
-    .post(graphController.newIcon);
-
 module.exports = router;
