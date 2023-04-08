@@ -13,12 +13,6 @@
     },
     {
         "category": "mental_health",
-        "title": "laughs",
-        "question": "How often did you laugh today?",
-        "explanation": "Rate how frequently you laughed today from 0 (not at all) to 10 (very often). Consider any activities or experiences that made you laugh."
-    },
-    {
-        "category": "mental_health",
         "title": "frustrated",
         "question": "How would you rate your level of frustration and agitation today?",
         "explanation": "Rate your level of frustration and agitation today from 0 (not at all) to 10 (very much). Consider any events or interactions that may have affected your mood."
@@ -26,7 +20,7 @@
     {
         "category": "physical_health",
         "title": "stress",
-        "question": "How stressed do you feel today?",
+        "question": "How satisfied were you stressed do you feel today?",
         "explanation": "Rate your level of stress today from 0 (not at all) to 10 (extremely). Consider any events or situations that may have contributed to your stress."
     },
     {
@@ -67,8 +61,8 @@
     },
     {
         "category": "activity",
-        "title": "self-care",
-        "question": "Were you able to integrate a self-care routine?",
-        "explanation": "Consider if you were able to intentionally set aside time for yourself today to engage in self-care practices that promote your physical, mental, or emotional wellbeing by rating your satisfaction ranging from 0 (not at all satisfied) to 10 (extremely satisfied)."
+        "title": "quality time",
+        "question": "Were you able to practice quality time throughout the day?",
+        "explanation": "Consider if you were able to intentionally set aside time for yourself today to engage in doing something you enjoy that promotes your physical, mental, or emotional wellbeing by rating your satisfaction ranging from 0 (not at all satisfied) to 10 (extremely satisfied). "
     }
 ]
