@@ -21,6 +21,9 @@ app.use('/', graphRoute);
 const userRoute = require('./routes/user');
 app.use('/user', userRoute);
 
+const inspirationRoute = require('./routes/inspiration');
+app.use('/inspiration', inspirationRoute);
+
 app.listen(PORT, () => {
     console.log("🚀 Listening on port 8080")
 })
