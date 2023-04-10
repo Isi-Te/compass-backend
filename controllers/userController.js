@@ -15,7 +15,6 @@ exports.getUser = (req, res) => {
         );
 };
 
-
 exports.userLogin = (req, res) => {
     const { username, password } = req.body;
 

@@ -11,9 +11,14 @@ exports.getJournal = (_req, res) => {
         );
 };
 
+//create getUserJournal
+
 exports.newEntry = (req, res) => {
 
     const newLog = { id: uuid(), ...req.body }
+
+    //validation here -- get timestamp and convert to today date == const today date
+    // if (req.body.date =)
 
     knex('journal')
         .insert(newLog)
