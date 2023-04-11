@@ -20,7 +20,7 @@
     {
         "category": "physical_health",
         "title": "stress",
-        "question": "How satisfied were you stressed do you feel today?",
+        "question": "How would you rate your stress levels today?",
         "explanation": "Rate your level of stress today from 0 (not at all) to 10 (extremely). Consider any events or situations that may have contributed to your stress."
     },
     {
