@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const { v4: uuid } = require('uuid');
 const bcrypt = require('bcrypt');
 
-const JWT_SECRET = "58yuht4jrgkv9sdf8uht";
+const JWT_SECRET = process.env.JWT_SECRET;
 
 exports.getUser = (req, res) => {
     knex('user')
